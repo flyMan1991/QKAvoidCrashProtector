@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B0382F211967BA00A319A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0382E211967BA00A319A0 /* AppDelegate.m */; };
+		09B03832211967BA00A319A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B03831211967BA00A319A0 /* ViewController.m */; };
+		09B03835211967BA00A319A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B03833211967BA00A319A0 /* Main.storyboard */; };
+		09B03837211967BD00A319A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B03836211967BD00A319A0 /* Assets.xcassets */; };
+		09B0383A211967BD00A319A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B03838211967BD00A319A0 /* LaunchScreen.storyboard */; };
+		09B0383D211967BD00A319A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0383C211967BD00A319A0 /* main.m */; };
+		09B03847211967BE00A319A0 /* QKAvoidCrashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B03846211967BE00A319A0 /* QKAvoidCrashDemoTests.m */; };
+		09B03852211967BE00A319A0 /* QKAvoidCrashDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B03851211967BE00A319A0 /* QKAvoidCrashDemoUITests.m */; };
+		09B038DD2121201100A319A0 /* NSObject+QKKVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038C02121201100A319A0 /* NSObject+QKKVOCrash.m */; };
+		09B038DE2121201100A319A0 /* NSMutableString+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038C22121201100A319A0 /* NSMutableString+QKCrash.m */; };
+		09B038DF2121201100A319A0 /* NSObject+QKNotificationCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038C32121201100A319A0 /* NSObject+QKNotificationCrash.m */; };
+		09B038E02121201100A319A0 /* NSDictionary+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038C72121201100A319A0 /* NSDictionary+QKCrash.m */; };
+		09B038E12121201100A319A0 /* QKCrashProtectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038C92121201100A319A0 /* QKCrashProtectManager.m */; };
+		09B038E22121201100A319A0 /* NSMutableArray+QKAvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038CE2121201100A319A0 /* NSMutableArray+QKAvoidCrash.m */; };
+		09B038E32121201100A319A0 /* NSObject+QKSelectorCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038CF2121201100A319A0 /* NSObject+QKSelectorCrash.m */; };
+		09B038E42121201100A319A0 /* NSArray+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038D02121201100A319A0 /* NSArray+QKCrash.m */; };
+		09B038E52121201100A319A0 /* NSObject+QKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038D32121201100A319A0 /* NSObject+QKSwizzle.m */; };
+		09B038E62121201100A319A0 /* AvoidCrashStubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038D62121201100A319A0 /* AvoidCrashStubProxy.m */; };
+		09B038E72121201100A319A0 /* NSString+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038D82121201100A319A0 /* NSString+QKCrash.m */; };
+		09B038E82121201100A319A0 /* QKCrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038D92121201100A319A0 /* QKCrashLog.m */; };
+		09B038E92121201100A319A0 /* NSMutableDictionary+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038DA2121201100A319A0 /* NSMutableDictionary+QKCrash.m */; };
+		09B038EA2121201100A319A0 /* NSTimer+QKCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B038DC2121201100A319A0 /* NSTimer+QKCrash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09B03843211967BE00A319A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B03822211967BA00A319A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B03829211967BA00A319A0;
+			remoteInfo = QKAvoidCrashDemo;
+		};
+		09B0384E211967BE00A319A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B03822211967BA00A319A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B03829211967BA00A319A0;
+			remoteInfo = QKAvoidCrashDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B0382A211967BA00A319A0 /* QKAvoidCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKAvoidCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B0382D211967BA00A319A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09B0382E211967BA00A319A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09B03830211967BA00A319A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09B03831211967BA00A319A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09B03834211967BA00A319A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09B03836211967BD00A319A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B03839211967BD00A319A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B0383B211967BD00A319A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B0383C211967BD00A319A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B03842211967BE00A319A0 /* QKAvoidCrashDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKAvoidCrashDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B03846211967BE00A319A0 /* QKAvoidCrashDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKAvoidCrashDemoTests.m; sourceTree = "<group>"; };
+		09B03848211967BE00A319A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B0384D211967BE00A319A0 /* QKAvoidCrashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKAvoidCrashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B03851211967BE00A319A0 /* QKAvoidCrashDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKAvoidCrashDemoUITests.m; sourceTree = "<group>"; };
+		09B03853211967BE00A319A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B038C02121201100A319A0 /* NSObject+QKKVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QKKVOCrash.m"; sourceTree = "<group>"; };
+		09B038C12121201100A319A0 /* NSObject+QKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QKSwizzle.h"; sourceTree = "<group>"; };
+		09B038C22121201100A319A0 /* NSMutableString+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+QKCrash.m"; sourceTree = "<group>"; };
+		09B038C32121201100A319A0 /* NSObject+QKNotificationCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QKNotificationCrash.m"; sourceTree = "<group>"; };
+		09B038C42121201100A319A0 /* NSArray+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+QKCrash.h"; sourceTree = "<group>"; };
+		09B038C52121201100A319A0 /* NSObject+QKSelectorCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QKSelectorCrash.h"; sourceTree = "<group>"; };
+		09B038C62121201100A319A0 /* QKCrashProtectorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKCrashProtectorHeader.h; sourceTree = "<group>"; };
+		09B038C72121201100A319A0 /* NSDictionary+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QKCrash.m"; sourceTree = "<group>"; };
+		09B038C82121201100A319A0 /* AvoidCrashStubProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvoidCrashStubProxy.h; sourceTree = "<group>"; };
+		09B038C92121201100A319A0 /* QKCrashProtectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKCrashProtectManager.m; sourceTree = "<group>"; };
+		09B038CA2121201100A319A0 /* NSMutableDictionary+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+QKCrash.h"; sourceTree = "<group>"; };
+		09B038CB2121201100A319A0 /* QKCrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKCrashLog.h; sourceTree = "<group>"; };
+		09B038CC2121201100A319A0 /* NSString+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QKCrash.h"; sourceTree = "<group>"; };
+		09B038CD2121201100A319A0 /* NSTimer+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+QKCrash.h"; sourceTree = "<group>"; };
+		09B038CE2121201100A319A0 /* NSMutableArray+QKAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QKAvoidCrash.m"; sourceTree = "<group>"; };
+		09B038CF2121201100A319A0 /* NSObject+QKSelectorCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QKSelectorCrash.m"; sourceTree = "<group>"; };
+		09B038D02121201100A319A0 /* NSArray+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+QKCrash.m"; sourceTree = "<group>"; };
+		09B038D12121201100A319A0 /* NSObject+QKNotificationCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QKNotificationCrash.h"; sourceTree = "<group>"; };
+		09B038D22121201100A319A0 /* NSMutableString+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+QKCrash.h"; sourceTree = "<group>"; };
+		09B038D32121201100A319A0 /* NSObject+QKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QKSwizzle.m"; sourceTree = "<group>"; };
+		09B038D42121201100A319A0 /* NSObject+QKKVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QKKVOCrash.h"; sourceTree = "<group>"; };
+		09B038D52121201100A319A0 /* QKCrashProtectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKCrashProtectManager.h; sourceTree = "<group>"; };
+		09B038D62121201100A319A0 /* AvoidCrashStubProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvoidCrashStubProxy.m; sourceTree = "<group>"; };
+		09B038D72121201100A319A0 /* NSDictionary+QKCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QKCrash.h"; sourceTree = "<group>"; };
+		09B038D82121201100A319A0 /* NSString+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QKCrash.m"; sourceTree = "<group>"; };
+		09B038D92121201100A319A0 /* QKCrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKCrashLog.m; sourceTree = "<group>"; };
+		09B038DA2121201100A319A0 /* NSMutableDictionary+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+QKCrash.m"; sourceTree = "<group>"; };
+		09B038DB2121201100A319A0 /* NSMutableArray+QKAvoidCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QKAvoidCrash.h"; sourceTree = "<group>"; };
+		09B038DC2121201100A319A0 /* NSTimer+QKCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+QKCrash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B03827211967BA00A319A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B0383F211967BE00A319A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B0384A211967BE00A319A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B03821211967BA00A319A0 = {
+			isa = PBXGroup;
+			children = (
+				09B0382C211967BA00A319A0 /* QKAvoidCrashDemo */,
+				09B03845211967BE00A319A0 /* QKAvoidCrashDemoTests */,
+				09B03850211967BE00A319A0 /* QKAvoidCrashDemoUITests */,
+				09B0382B211967BA00A319A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B0382B211967BA00A319A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B0382A211967BA00A319A0 /* QKAvoidCrashDemo.app */,
+				09B03842211967BE00A319A0 /* QKAvoidCrashDemoTests.xctest */,
+				09B0384D211967BE00A319A0 /* QKAvoidCrashDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B0382C211967BA00A319A0 /* QKAvoidCrashDemo */ = {
+			isa = PBXGroup;
+			children = (
+				09B038BF2121201100A319A0 /* QKAvoidCrash */,
+				09B0382D211967BA00A319A0 /* AppDelegate.h */,
+				09B0382E211967BA00A319A0 /* AppDelegate.m */,
+				09B03830211967BA00A319A0 /* ViewController.h */,
+				09B03831211967BA00A319A0 /* ViewController.m */,
+				09B03833211967BA00A319A0 /* Main.storyboard */,
+				09B03836211967BD00A319A0 /* Assets.xcassets */,
+				09B03838211967BD00A319A0 /* LaunchScreen.storyboard */,
+				09B0383B211967BD00A319A0 /* Info.plist */,
+				09B0383C211967BD00A319A0 /* main.m */,
+			);
+			path = QKAvoidCrashDemo;
+			sourceTree = "<group>";
+		};
+		09B03845211967BE00A319A0 /* QKAvoidCrashDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				09B03846211967BE00A319A0 /* QKAvoidCrashDemoTests.m */,
+				09B03848211967BE00A319A0 /* Info.plist */,
+			);
+			path = QKAvoidCrashDemoTests;
+			sourceTree = "<group>";
+		};
+		09B03850211967BE00A319A0 /* QKAvoidCrashDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09B03851211967BE00A319A0 /* QKAvoidCrashDemoUITests.m */,
+				09B03853211967BE00A319A0 /* Info.plist */,
+			);
+			path = QKAvoidCrashDemoUITests;
+			sourceTree = "<group>";
+		};
+		09B038BF2121201100A319A0 /* QKAvoidCrash */ = {
+			isa = PBXGroup;
+			children = (
+				09B038C02121201100A319A0 /* NSObject+QKKVOCrash.m */,
+				09B038C12121201100A319A0 /* NSObject+QKSwizzle.h */,
+				09B038C22121201100A319A0 /* NSMutableString+QKCrash.m */,
+				09B038C32121201100A319A0 /* NSObject+QKNotificationCrash.m */,
+				09B038C42121201100A319A0 /* NSArray+QKCrash.h */,
+				09B038C52121201100A319A0 /* NSObject+QKSelectorCrash.h */,
+				09B038C62121201100A319A0 /* QKCrashProtectorHeader.h */,
+				09B038C72121201100A319A0 /* NSDictionary+QKCrash.m */,
+				09B038C82121201100A319A0 /* AvoidCrashStubProxy.h */,
+				09B038C92121201100A319A0 /* QKCrashProtectManager.m */,
+				09B038CA2121201100A319A0 /* NSMutableDictionary+QKCrash.h */,
+				09B038CB2121201100A319A0 /* QKCrashLog.h */,
+				09B038CC2121201100A319A0 /* NSString+QKCrash.h */,
+				09B038CD2121201100A319A0 /* NSTimer+QKCrash.h */,
+				09B038CE2121201100A319A0 /* NSMutableArray+QKAvoidCrash.m */,
+				09B038CF2121201100A319A0 /* NSObject+QKSelectorCrash.m */,
+				09B038D02121201100A319A0 /* NSArray+QKCrash.m */,
+				09B038D12121201100A319A0 /* NSObject+QKNotificationCrash.h */,
+				09B038D22121201100A319A0 /* NSMutableString+QKCrash.h */,
+				09B038D32121201100A319A0 /* NSObject+QKSwizzle.m */,
+				09B038D42121201100A319A0 /* NSObject+QKKVOCrash.h */,
+				09B038D52121201100A319A0 /* QKCrashProtectManager.h */,
+				09B038D62121201100A319A0 /* AvoidCrashStubProxy.m */,
+				09B038D72121201100A319A0 /* NSDictionary+QKCrash.h */,
+				09B038D82121201100A319A0 /* NSString+QKCrash.m */,
+				09B038D92121201100A319A0 /* QKCrashLog.m */,
+				09B038DA2121201100A319A0 /* NSMutableDictionary+QKCrash.m */,
+				09B038DB2121201100A319A0 /* NSMutableArray+QKAvoidCrash.h */,
+				09B038DC2121201100A319A0 /* NSTimer+QKCrash.m */,
+			);
+			path = QKAvoidCrash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B03829211967BA00A319A0 /* QKAvoidCrashDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B03856211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemo" */;
+			buildPhases = (
+				09B03826211967BA00A319A0 /* Sources */,
+				09B03827211967BA00A319A0 /* Frameworks */,
+				09B03828211967BA00A319A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QKAvoidCrashDemo;
+			productName = QKAvoidCrashDemo;
+			productReference = 09B0382A211967BA00A319A0 /* QKAvoidCrashDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09B03841211967BE00A319A0 /* QKAvoidCrashDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B03859211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemoTests" */;
+			buildPhases = (
+				09B0383E211967BE00A319A0 /* Sources */,
+				09B0383F211967BE00A319A0 /* Frameworks */,
+				09B03840211967BE00A319A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B03844211967BE00A319A0 /* PBXTargetDependency */,
+			);
+			name = QKAvoidCrashDemoTests;
+			productName = QKAvoidCrashDemoTests;
+			productReference = 09B03842211967BE00A319A0 /* QKAvoidCrashDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09B0384C211967BE00A319A0 /* QKAvoidCrashDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B0385C211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemoUITests" */;
+			buildPhases = (
+				09B03849211967BE00A319A0 /* Sources */,
+				09B0384A211967BE00A319A0 /* Frameworks */,
+				09B0384B211967BE00A319A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B0384F211967BE00A319A0 /* PBXTargetDependency */,
+			);
+			name = QKAvoidCrashDemoUITests;
+			productName = QKAvoidCrashDemoUITests;
+			productReference = 09B0384D211967BE00A319A0 /* QKAvoidCrashDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B03822211967BA00A319A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = qk365;
+				TargetAttributes = {
+					09B03829211967BA00A319A0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					09B03841211967BE00A319A0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 09B03829211967BA00A319A0;
+					};
+					09B0384C211967BE00A319A0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 09B03829211967BA00A319A0;
+					};
+				};
+			};
+			buildConfigurationList = 09B03825211967BA00A319A0 /* Build configuration list for PBXProject "QKAvoidCrashDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B03821211967BA00A319A0;
+			productRefGroup = 09B0382B211967BA00A319A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B03829211967BA00A319A0 /* QKAvoidCrashDemo */,
+				09B03841211967BE00A319A0 /* QKAvoidCrashDemoTests */,
+				09B0384C211967BE00A319A0 /* QKAvoidCrashDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B03828211967BA00A319A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B0383A211967BD00A319A0 /* LaunchScreen.storyboard in Resources */,
+				09B03837211967BD00A319A0 /* Assets.xcassets in Resources */,
+				09B03835211967BA00A319A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B03840211967BE00A319A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B0384B211967BE00A319A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B03826211967BA00A319A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B038E82121201100A319A0 /* QKCrashLog.m in Sources */,
+				09B038E92121201100A319A0 /* NSMutableDictionary+QKCrash.m in Sources */,
+				09B038DD2121201100A319A0 /* NSObject+QKKVOCrash.m in Sources */,
+				09B038DE2121201100A319A0 /* NSMutableString+QKCrash.m in Sources */,
+				09B038DF2121201100A319A0 /* NSObject+QKNotificationCrash.m in Sources */,
+				09B038E72121201100A319A0 /* NSString+QKCrash.m in Sources */,
+				09B038E12121201100A319A0 /* QKCrashProtectManager.m in Sources */,
+				09B038E32121201100A319A0 /* NSObject+QKSelectorCrash.m in Sources */,
+				09B038E62121201100A319A0 /* AvoidCrashStubProxy.m in Sources */,
+				09B038E02121201100A319A0 /* NSDictionary+QKCrash.m in Sources */,
+				09B038E42121201100A319A0 /* NSArray+QKCrash.m in Sources */,
+				09B03832211967BA00A319A0 /* ViewController.m in Sources */,
+				09B038EA2121201100A319A0 /* NSTimer+QKCrash.m in Sources */,
+				09B0383D211967BD00A319A0 /* main.m in Sources */,
+				09B0382F211967BA00A319A0 /* AppDelegate.m in Sources */,
+				09B038E52121201100A319A0 /* NSObject+QKSwizzle.m in Sources */,
+				09B038E22121201100A319A0 /* NSMutableArray+QKAvoidCrash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B0383E211967BE00A319A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B03847211967BE00A319A0 /* QKAvoidCrashDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B03849211967BE00A319A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B03852211967BE00A319A0 /* QKAvoidCrashDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B03844211967BE00A319A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B03829211967BA00A319A0 /* QKAvoidCrashDemo */;
+			targetProxy = 09B03843211967BE00A319A0 /* PBXContainerItemProxy */;
+		};
+		09B0384F211967BE00A319A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B03829211967BA00A319A0 /* QKAvoidCrashDemo */;
+			targetProxy = 09B0384E211967BE00A319A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09B03833211967BA00A319A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B03834211967BA00A319A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09B03838211967BD00A319A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B03839211967BD00A319A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B03854211967BE00A319A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09B03855211967BE00A319A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B03857211967BE00A319A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RBM48WNHG;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = QKAvoidCrashDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk365.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B03858211967BE00A319A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RBM48WNHG;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=3";
+				INFOPLIST_FILE = QKAvoidCrashDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk365.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09B0385A211967BE00A319A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKAvoidCrashDemo.app/QKAvoidCrashDemo";
+			};
+			name = Debug;
+		};
+		09B0385B211967BE00A319A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKAvoidCrashDemo.app/QKAvoidCrashDemo";
+			};
+			name = Release;
+		};
+		09B0385D211967BE00A319A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QKAvoidCrashDemo;
+			};
+			name = Debug;
+		};
+		09B0385E211967BE00A319A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QKAvoidCrashDemo;
+			};
+			name = Release;
+		};
+		09B0388F211D6FC800A319A0 /* Debug_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug_Release;
+		};
+		09B03890211D6FC800A319A0 /* Debug_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RBM48WNHG;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=2";
+				INFOPLIST_FILE = QKAvoidCrashDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk365.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_Release;
+		};
+		09B03891211D6FC800A319A0 /* Debug_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKAvoidCrashDemo.app/QKAvoidCrashDemo";
+			};
+			name = Debug_Release;
+		};
+		09B03892211D6FC800A319A0 /* Debug_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QKAvoidCrashDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.QKAvoidCrashDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QKAvoidCrashDemo;
+			};
+			name = Debug_Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B03825211967BA00A319A0 /* Build configuration list for PBXProject "QKAvoidCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B03854211967BE00A319A0 /* Debug */,
+				09B0388F211D6FC800A319A0 /* Debug_Release */,
+				09B03855211967BE00A319A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		09B03856211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B03857211967BE00A319A0 /* Debug */,
+				09B03890211D6FC800A319A0 /* Debug_Release */,
+				09B03858211967BE00A319A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		09B03859211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B0385A211967BE00A319A0 /* Debug */,
+				09B03891211D6FC800A319A0 /* Debug_Release */,
+				09B0385B211967BE00A319A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		09B0385C211967BE00A319A0 /* Build configuration list for PBXNativeTarget "QKAvoidCrashDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B0385D211967BE00A319A0 /* Debug */,
+				09B03892211D6FC800A319A0 /* Debug_Release */,
+				09B0385E211967BE00A319A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B03822211967BA00A319A0 /* Project object */;
+}
